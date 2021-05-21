@@ -1,0 +1,50 @@
+body{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.columna-form{
+    margin-top: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 400px;
+
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+
+.nav-link{
+    margin-left: 20px;
+    background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background-position: -100%;
+}
+
+.margin20{
+    margin-top: 20px;
+}
+
+.notif-detalles{
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+
+.options-distance{
+    margin-top: 10px;
+}
+
+
