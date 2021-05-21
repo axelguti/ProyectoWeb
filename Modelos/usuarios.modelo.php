@@ -8,7 +8,7 @@ class ModeloUsuarios{
 	MOSTRAR USUARIOS
 	=============================================*/
 
-	static public function mdlMostrarUsuarios($tabla, $item, $valor){
+	static public function mdlMostrarUsuarios(){
 
 		if($item != null){
 

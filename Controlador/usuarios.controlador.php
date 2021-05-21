@@ -230,11 +230,11 @@ class ControladorUsuarios{
 	MOSTRAR USUARIO
 	=============================================*/
 
-	static public function ctrMostrarUsuarios($item, $valor){
+	static public function ctrMostrarUsuarios(){
 
 		$tabla = "usuarios";
 		include "../Modelos/productos.usuarios.modelo.php";
-		$respuesta = ModeloUsuarios::MdlMostrarUsuarios($tabla, $item, $valor);
+		$respuesta = ModeloUsuarios::MdlMostrarUsuarios();
 
 		return $respuesta;
 	}
