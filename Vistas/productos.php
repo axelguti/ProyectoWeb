@@ -128,7 +128,6 @@
 
                         foreach ($mostrarProd as $mostrarProd) {
                         ?>
-
                         <tr>
                             <td><?php echo $mostrarProd['codigo'];?></td>
                             <td><?php echo $mostrarProd['descripcion'];?></td>

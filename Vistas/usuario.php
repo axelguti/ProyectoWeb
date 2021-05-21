@@ -124,17 +124,17 @@
                         include_once "../Controlador/usuarios.controlador.php";
                         $mostrarUsers = ControladorUsuarios::ctrMostrarUsuarios();
 
-                        foreach ($mostrarProd as $mostrarProd) {
+                        foreach ($mostrarUsers as $mostrarUsers) {
                         ?>
 
                         <tr>
-                            <td><?php echo $mostrarProd['nombre'];?></td>
-                            <td><?php echo $mostrarProd['usuario'];?></td>
-                            <td><?php echo $mostrarProd['password'];?></td>
-                            <td><?php echo $mostrarProd['perfil'];?></td>
-                            <td><?php echo $mostrarProd['estado'];?></td>
-                            <td><?php echo $mostrarProd['ultimo_login'];?></td>
-                            <td><?php echo $mostrarProd['fecha'];?></td>
+                            <td><?php echo $mostrarUsers['nombre'];?></td>
+                            <td><?php echo $mostrarUsers['usuario'];?></td>
+                            <td><?php echo $mostrarUsers['password'];?></td>
+                            <td><?php echo $mostrarUsers['perfil'];?></td>
+                            <td><?php echo $mostrarUsers['estado'];?></td>
+                            <td><?php echo $mostrarUsers['ultimo_login'];?></td>
+                            <td><?php echo $mostrarUsers['fecha'];?></td>
 
 
 
